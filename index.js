@@ -3,7 +3,7 @@ import cors from "cors"
 
 
 const app = express()
-const port = 7500
+const port = 80
 
 app.use(cors())
 app.use(express.json())
