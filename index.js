@@ -31,5 +31,5 @@ const server = http.createServer((req,res)=>{
 
 
 server.listen(port,ip,()=>{
-    console.log(`Server started at http://${ip}:${port}`)
+    console.log(`Server  started at http://${ip}:${port}`)
 })
