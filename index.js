@@ -1,4 +1,4 @@
-/*import express from "express"
+import express from "express"
 import cors from "cors"
 
 
@@ -15,9 +15,9 @@ app.get("/",(req,res)=>{
 
 
 
-app.listen(port,()=>console.log(`AWS-instance started on port ${port}`))*/
+app.listen(port,()=>console.log(`AWS-instance started on port ${port}`))
 
-import http from "http"
+/*import http from "http"
 
 const ip='0.0.0.0'
 const port = 80
@@ -32,4 +32,4 @@ const server = http.createServer((req,res)=>{
 
 server.listen(port,ip,()=>{
     console.log(`Server  started at http://${ip}:${port}`)
-})
+})*/
